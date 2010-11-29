@@ -57,6 +57,11 @@
 	rc = rebase --continue
 	ra = rebase --abort
 	
+	# svn
+	vf = svn fetch
+	vr = svn rebase
+	vd = svn dcommit
+
 	# diff
 	d = diff
 	p = diff --cached # mnemonic: "patch"
